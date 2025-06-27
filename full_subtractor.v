@@ -9,7 +9,7 @@ assign sub = a ^ b ^ cin;
 assign borrow = (~a & b) | ((~(a ^ b)) & cin);
 endmodule
 ////test bench////
-module tb_full_subtractor;
+module tb_full_subtractor();
 reg a, b, cin;
 wire sub, borrow;
 full_subtractor s1 (a,b,cin,sub,borrow);
