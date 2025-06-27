@@ -12,15 +12,15 @@ fulladder_1 f1(a,b,cin,s,cout);
 initial
 begin
 a=0; b=0; cin=0;
-#100
+#100;
 a=0; b=0; cin=1;
-#100
+#100;
 a=1; b=0; cin=0;
-#100
+#100;
 a=1; b=0; cin=1;
-#100
+#100;
 a=1; b=1; cin=0;
-#100
+#100;
 a=1; b=1; cin=1;
 end 
 endmodule
