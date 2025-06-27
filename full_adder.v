@@ -9,7 +9,7 @@ assign Sum  = A ^ B ^ Cin;
 assign Cout = (A & B) | (B & Cin) | (A & Cin);
 endmodule
 ////test bench////
-module full_adder_tb;
+module full_adder_tb();
 reg A, B, Cin;
 wire Sum, Cout;
 full_adder c1 (A,B,Cin,Sum,Cout);
